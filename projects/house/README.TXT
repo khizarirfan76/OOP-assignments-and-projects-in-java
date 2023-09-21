@@ -1,11 +1,11 @@
 Project "house"
-Authors: Michael Kšlling and David J. Barnes
+Authors: Michael KÅ¡lling and David J. Barnes
 
 This project is part of the material for the book
 
    Objects First with Java - A Practical Introduction using BlueJ
    Fifth edition
-   David J. Barnes and Michael Kšlling
+   David J. Barnes and Michael KÅ¡lling
    Pearson Education, 2012
 
 It is discussed in chapter 1.
@@ -17,3 +17,10 @@ This project is often used after studying the "shapes" project. It
 adds a class to those ones in "shapes". That class (named "Picture")
 uses the shapes to draw a picture. It can be used to experiment with 
 modifying source code.
+
+
+
+
+
+
+scenery.java contains the public static void main(). tinker with it .A sample code is already written in it to make a simple scenery
