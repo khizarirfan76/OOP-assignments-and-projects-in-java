@@ -1,0 +1,52 @@
+    
+    // Test Cases:
+    //Test Case 1. just call this method on orignal file; expected output: 234939
+    //test case 2. insert a new word "oop" and then call again the method; expected output: 234940
+    public int numberOfWords()
+    
+    
+    //Two Test Cases:
+    //test case 1. input: "oop"; expected output: true
+    //test case 2. input: "OOP"; expected output: false
+    // method can be tested with empty word as well
+    public boolean isKnownWord(String word)
+    
+    
+    //test case 1: input: {"oop", "aam"}, expected output: true
+    //test case 2: add another element "Aam" in the above list; expected output: false
+    // method can be tested with empty arraylist or null value
+    public boolean allKnown(ArrayList<String> words)
+   
+    
+    
+   //Test case 1: input "photo"; output: ArrayList with 356 elements. Last element at index 355 is "photozincotypy".
+   //Test case 2: input "PHOTO"; output: ArrayList with same 356 elements.
+    public ArrayList<String> wordsStartingWith(String prefix)
+    
+    
+   
+    //Test case 1: input "photo"; output: ArrayList with 440 elements. 
+    //First element [0] is "aerophotography"; Last element 439 is "Wirephoto".
+    //Test case 2: input "PHOTO"; output: ArrayList with same 440 elements.
+    public ArrayList<String> wordsContaining(String text)
+   
+
+    //Test Case 1: {"aan"}
+    public void insert(String newWord)
+    
+    
+    //Test case: input "aan", output: true. Verify if word has been deleted from file
+    //Test case: input any word of your choice you think not present in file; output: false
+    public boolean remove(String newWord)
+    
+       
+    //test case 1: input "rotator", output: true
+    //test case 2: input "navan", output: false
+    public boolean isPalindrome(String word)
+   
+
+    //insert "opo" and "poo"
+    //test case 1: input: "oop"; expected output: {"opo", "poo"} 
+    //test case 2: input: "ooop"; expected output: {}
+    public ArrayList<String> anagrams(String word)
+    
